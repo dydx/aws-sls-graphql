@@ -8,7 +8,7 @@ const {
 } = GraphQL;
 
 // import the user query
-const PostQuery = require('../queries/Post');
+const PostQuery = require('./queries/Post');
 
 // define a root query
 const RootQuery = new GraphQLObjectType({

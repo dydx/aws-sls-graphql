@@ -19,7 +19,7 @@ const PostType = new GraphQL.GraphQLObjectType({
             description: 'ID of the post'
         },
         title: {
-            type: GraphQLString
+            type: GraphQLString,
             description: 'Title of the post'
         },
         url: {

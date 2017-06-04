@@ -13,7 +13,7 @@ const PostType = require('../types/Post');
 // import the Post resolver
 const PostRwsolver = require('../resolvers/Post');
 
-module.eports = {
+module.exports = {
     index () {
         return {
             type: new GraphQLList(PostType),
@@ -24,7 +24,7 @@ module.eports = {
                     description: 'Please enter the subreddit name',
                 }
             },
-            resolve(parent, args, context info) {
+            resolve(parent, args, context, info) {
                 return PostResolver.index(args);
             }
         }

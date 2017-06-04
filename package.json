@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/dydx/aws-sls-graphql/issues"
   },
-  "homepage": "https://github.com/dydx/aws-sls-graphql#readme"
+  "homepage": "https://github.com/dydx/aws-sls-graphql#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.0.1",
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1"
+  }
 }
