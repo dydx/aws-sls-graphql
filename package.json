@@ -1,0 +1,20 @@
+{
+  "name": "aws-sls-graphql",
+  "version": "1.0.0",
+  "description": "Demo code from Serverless Framework's blog post about making a GraphQL service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dydx/aws-sls-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dydx/aws-sls-graphql/issues"
+  },
+  "homepage": "https://github.com/dydx/aws-sls-graphql#readme"
+}
