@@ -9,14 +9,7 @@ provider:
 functions:
   hello:
     handler: lambda.main
-    tags:
-        application: as-mss-graphql
-        product: as-mss-graphql
-        environment: dev
-        customer: adultswim
-        team: mss-adultswim
-        owner: Josh Sandlin <josh.sandlin@turner.com>
     events:
         - http:
-            path: graphql
+            path: main
             method: get
