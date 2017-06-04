@@ -1,0 +1,22 @@
+service: as-mss-graphql
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: us-east-1
+
+functions:
+  hello:
+    handler: lambda.main
+    tags:
+        application: as-mss-graphql
+        product: as-mss-graphql
+        environment: dev
+        customer: adultswim
+        team: mss-adultswim
+        owner: Josh Sandlin <josh.sandlin@turner.com>
+    events:
+        - http:
+            path: graphql
+            method: get
